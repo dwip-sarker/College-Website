@@ -218,17 +218,13 @@ body {
     display: flex;
 }
 
-#section-3 .container .half-width {
-    width: 45%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+.video_area {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
-#section-3 .container .half-width iframe {
+#section-3 iframe {
     height: 445px;
     width: 445px;
     border-radius: 100%;
@@ -531,7 +527,7 @@ body {
 }
 
 .events-area .events {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--footer0-text-color);
     text-decoration: none;
     margin-bottom: 15px;
