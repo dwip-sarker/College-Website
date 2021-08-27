@@ -178,6 +178,10 @@ body {
     padding: 20px 30px;
 }
 
+.card-title {
+    text-align: center;
+}
+
 .card-1 {
     background: var(--card-bg-1);
 }
@@ -212,33 +216,34 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 
 #section-3 .container {
     display: flex;
 }
 
-.video_area {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-#section-3 iframe {
-    height: 445px;
-    width: 445px;
+#section-3 .video_area img {
     border-radius: 100%;
-    background-color: white;
-    padding: 20px;
-    border: 20px solid #ebf7fc;
+    border: 30px solid #ddf1fa;
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
 }
 
-#section-3 h2 {
+#section-3 .content_area {
+    padding-top: 30px;
+}
+
+#section-3 .content_area h2 {
     font-size: 40px;
     color: #43cb83;
 }
 
-#section-3 p {
+#section-3 .content_area p {
     color: #5a6e79;
 }
 
@@ -256,33 +261,23 @@ body {
     margin-bottom: 200px;
 }
 
-#section-4 .container {
-    height: 100%;
-    display: flex;
-}
-
 #section-4 .apply-content-area {
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    width: 60%;
+}
 
+#section-4 .apply-form-area {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* CSS FORM__________________ */
-.form-body {
-    background-color: white;
-    padding: 10px;
-    box-shadow: 10px 10px 20px #2f5a5a98;
-    border-radius: 10px;
-    width: 300px;
-    position: relative;
-}
 
 .login-box {
     margin-top: -100px;
-    width: 400px;
+    max-width: 400px;
     padding: 40px;
     background: white;
     box-sizing: border-box;
@@ -407,11 +402,7 @@ body {
 
 #section-5 .post-section {
     display: flex;
-    justify-content: space-between;
-}
-
-.post-section .content_area {
-    width: 70%;
+    /* justify-content: space-between; */
 }
 
 .post-section .content_area a:nth-child(1) {
@@ -429,7 +420,6 @@ body {
 }
 
 .post-section .button_area {
-    width: 30%;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
