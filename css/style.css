@@ -54,6 +54,10 @@ body {
 }
 
 /* CUSTOMIZING BOOTSTRAP NAVBAR_______*/
+.navbar {
+    background-color: white;
+}
+
 .navbar-brand img {
     width: 60px;
 }
