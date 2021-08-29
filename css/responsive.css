@@ -39,6 +39,10 @@
     margin-top: 600px;
   }
 
+  #section-4 .apply-content-area {
+    padding-top: 30px;
+  }
+
   .post-section .button_area {
     justify-content: flex-start;
     margin-top: 10px;

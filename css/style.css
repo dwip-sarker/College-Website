@@ -3,9 +3,13 @@
 /* font-family: 'Montserrat',sans-serif; */
 
 
-body {
+#index_body {
     font-family: 'Montserrat',
         sans-serif;
+    background: url(../img/background/full-bg.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 /* body::before {
@@ -45,17 +49,13 @@ body {
           SECTION ONE CSS
 -------------------------------- */
 #section-1 {
-    background: url(../img/background/section-1-bg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 600px;
     position: relative;
 }
 
 /* CUSTOMIZING BOOTSTRAP NAVBAR_______*/
 .navbar {
-    background-color: white;
+    /* background-color: white; */
 }
 
 .navbar-brand img {
@@ -160,10 +160,6 @@ body {
           SECTION TOW CSS
 -------------------------------- */
 #section-2 {
-    background: url(../img/background/section02-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     margin-top: 50px;
 }
 
@@ -216,10 +212,10 @@ body {
 -------------------------------- */
 #section-3 {
     padding-top: 100px;
-    background: url(../img/background/sectioin03-bg.png);
+    /* background: url(../img/background/sectioin03-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     display: flex;
 }
 

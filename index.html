@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
+<body id="index_body">
     <!--SECTION ONE START
     ------------------------------------------------->
     <section id="section-1">
@@ -47,8 +47,15 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Study</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About us</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About us
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">College</a></li>
+                                <li><a class="dropdown-item" href="thachers.html">Teachers</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="gallery/gallery.html">Gallery</a>
