@@ -2,23 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap');
 /* font-family: 'Montserrat',sans-serif; */
 
-
-#index_body {
+body {
     font-family: 'Montserrat',
         sans-serif;
+}
+
+#index_body {
+
     background: url(../img/background/full-bg.png);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
-
-/* body::before {
-    content: url(../img/background/ring.png);
-    transform: scale(.7);
-    position: absolute;
-    top: -20%;
-    right: -30%;
-} */
 
 .button {
     padding: 10px 20px;
@@ -49,7 +44,6 @@
           SECTION ONE CSS
 -------------------------------- */
 #section-1 {
-    height: 600px;
     position: relative;
 }
 
@@ -90,8 +84,8 @@
 }
 
 .hero-area {
-    padding-top: 6%;
-    height: 100%;
+    padding-top: 5%;
+    height: 500px;
     width: 100%;
     display: flex;
     /* align-items: center; */
@@ -154,7 +148,9 @@
     box-shadow: 5px 5px 40px #73c6e980;
 }
 
-
+.alart-section {
+    margin-top: 50px;
+}
 
 /* ----------------------------------
           SECTION TOW CSS
