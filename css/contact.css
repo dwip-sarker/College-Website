@@ -20,6 +20,13 @@
     justify-content: center;
 }
 
+.mail-from-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
 .contact-body h1 {
     font-size: 30px;
     font-weight: 900;
@@ -56,4 +63,12 @@
 
 textarea {
     margin-bottom: 10px;
+
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: var(--highlight-green);
+    border-radius: 10px;
+    border: none;
 }

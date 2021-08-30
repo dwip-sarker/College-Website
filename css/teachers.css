@@ -152,10 +152,15 @@ body {
 }
 
 .card .img-area {
-    background: url(../img/gallery/bridge.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card .img-area img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
     border-radius: 10px 10px 0 0;
 }
 
@@ -166,7 +171,7 @@ body {
 .card .content-area h3 {
     color: var(--title-color);
     font-weight: 900;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .card .content-area p {
